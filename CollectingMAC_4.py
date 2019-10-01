@@ -55,5 +55,5 @@ with open('input.txt') as f:
 
         counter += 1
 
-        testImage.show()
-        testImage.save('qr4.png', "PNG")
+
+        testImage.save('first_set\qr{}.png'.format(s[2:6]), "PNG")
